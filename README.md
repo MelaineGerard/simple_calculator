@@ -1,10 +1,17 @@
-# TP *Git workflows*
+# simple Calculator
 
-Contribuez pour **rendre cette application web fonctionnelle**.
+Simple Calculator est une application permettant à l'utilisateur d'utiliser une calculatrice en ligne facilement
 
-- **Clôner** le projet sur votre machine.
-- **Créer** les branches nécessaires (adaptées au votre workflow Gitflow) et effectuer votre travail pour rendre l'application fonctionnelle.
+## Installation
 
-## Quick start
+Pour installer le projet, il vous suffit de clone ce repository : 
 
-Ouvrir le fichier `index.html` ou servez-le en local avec votre serveur local favori.# git-branching-model-tp
+1. Cloner ce repository : 
+```shell
+git clone git@github.com:MelaineGErard/simple_calculator.git
+cd simple_calculator
+```
+
+## Lancement du projet
+
+Pour utiliser le projet, il vous suffit d'ouvrir le fichier index.html dans votre navigateur favori.
