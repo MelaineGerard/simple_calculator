@@ -69,5 +69,16 @@ input {
 .history {
     color: white;
     margin-top: 10px;
+}
+
+.documentation {
+    color: white;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
     text-align: center;
+}
+
+.documentation:hover {
+    color: #8fbcd3;
 }
