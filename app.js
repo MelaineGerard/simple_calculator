@@ -13,6 +13,17 @@ function clearing(){
 function calculate(){
     let exp = document.form.screen.value;
     if(exp){
+        saveHistory();
         document.form.screen.value = eval(exp);
+    }
+}
+
+function saveHistory() {
+    const list = document.getElementById("history");
+    let exp = document.form.screen.value + "=" + eval(document.form.screen.value);
+    if(exp){
+        let li = document.createElement("li");
+        li.appendChild(document.createTextNode(exp));
+        list.appendChild(li);
     }
 }
